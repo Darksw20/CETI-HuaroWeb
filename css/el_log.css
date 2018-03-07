@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("DSC_01653.jpg");
+	background-size: cover; 
+	font-family: sans-serif;
+	font-size: 12px;
+	background-attachment: fixed;
+}
+div{
+	padding: 5px;
+	max-width: 500px;
+
+}
+#main{
+	display: flex;
+	
+	justify-content: center;
+	align-items:  center;
+	margin: 15% auto;
+	top: 0;	left: 0; bottom: 0;	right: 0;
+}
+#datos{
+	display: table;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+#formulario{
+	background-color: MediumSeaGreen;
+	border-radius: 10px;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items:  center;
+	
+}
+img{
+
+}
