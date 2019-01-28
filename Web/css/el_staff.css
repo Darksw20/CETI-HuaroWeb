@@ -1,0 +1,81 @@
+.partiF{
+	background-color: black;
+	display: inline-block;
+	text-align: center;
+	padding: 3%;
+	border-radius: 10px;
+}
+#parF{
+	text-align: center;
+}
+.partido{
+	text-align: center;
+}
+.partido #agP{
+	background-color: black;
+	padding: 3%;
+	display: inline-block;
+	border-radius: 10px;
+}
+.creat{
+	margin: 0 auto;
+	width: 75%;
+	text-align: center;
+}
+.creat form {
+	background-color: black;
+	margin: 0 auto;
+	width: 35%;
+	text-align: center;
+	display: inline-block;
+	border-radius: 10px;
+}
+.creat select{
+	margin:5%;
+}
+.creat input{
+	margin:5%;
+}
+.editarS {
+	text-align: center;
+}
+.creat #letrero{
+	margin: auto;
+	background-color: black;
+
+}
+.info{
+	margin:0 auto;
+	width: 75%;
+}
+.info #datos{
+display: block;
+
+}
+.info #nuevo{
+	background-color: black;
+	border-radius: 10px;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items:  center;
+	width: 50%;
+	padding: 5%;
+	margin: auto;
+}
+.info #nuevo #datos #c1{
+	display: inline-block;
+	position: relative;
+}
+h4{
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 6% auto;
+	padding: 2%;
+
+}
+input #but1{
+	background-image: url('butreg.png');
+}

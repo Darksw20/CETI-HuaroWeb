@@ -1,0 +1,59 @@
+.js-info {
+	width: 15px;
+	height: 15px;
+	font-size: 0;
+	cursor: help;
+	margin-left: 8px;
+	border-radius: 50%;
+	position: relative;
+	vertical-align: top;
+	text-transform: none;
+	display: inline-block;
+	background-size: cover;
+	border: #fff 2px solid;
+	background-color: #4771E6;
+}
+.js-info:before {
+	color: #fff;
+	content: 'i';
+	width: 100%;
+	height: 100%;
+	font-size: 9px;
+	line-height: 11px;
+	text-align: center;
+	display: inline-block;
+	font-family: monospace;
+}
+.js-info .js-info-content {
+	left: 100%;
+	z-index: 3;
+	color: #fff;
+	display: none;
+	padding: 20px;
+	font-size: 14px;
+	text-align: left;
+	min-height: 36px;
+	font-weight: 400; 
+	margin-left: 14px;
+	margin-top: -25px;
+	position: relative;
+	border-radius: 5px;
+	position: absolute;
+	text-transform: none;
+	background-color: #5AB1F1;
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+.js-info .js-info-content:before {
+	content: '';
+	top: 23px;
+	left: -8px;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	display: inline-block;
+	transform: rotate(45deg);
+	background-color: inherit;
+}
+.js-info:hover .js-info-content, .js-info-content, .js-info.active .js-info-content {
+	display: inline-block;
+}
